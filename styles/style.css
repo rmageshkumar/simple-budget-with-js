@@ -56,6 +56,7 @@ body {
   color: #414a67;
   outline: none;
   font-weight: 400;
+  margin-bottom: 0.6em;
 }
 
 .container input:focus {
@@ -94,7 +95,7 @@ body {
 
 .submit {
   font-size: 1em;
-  margin-top: 1em;
+  margin-top: 0.8em;
   background-color: #4caf50;
   border: none;
   outline: none;
@@ -109,4 +110,12 @@ body {
   padding: 1.8em 1.2em;
   box-shadow: 0 0.6em 1.25em rgba(28, 0, 80, 0.06);
   border-radius: 0.6em;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: #ff465f;
 }
